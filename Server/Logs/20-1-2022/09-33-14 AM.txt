@@ -1,0 +1,28 @@
+[Trace]   DarkRiftServer        System Details:
+                                	OS: Microsoft Windows NT 6.2.9200.0
+                                	CLS Version: 4.0.30319.42000
+                                	DarkRift: 2.10.1.0 - Free
+[Trace]   PluginFactory         Created plugin 'MultiplayerGame'.
+[Trace]   PluginManager         Plugin 'MultiplayerGame' has requested that DarkRift operates in thread safe mode.
+[Trace]   DarkRiftServer        Switched into thread safe mode. All events will be invoked from the main thread. This may affect server performance.
+[Info]    PluginManager         Loaded plugin MultiplayerGame version 1.0.0
+[Trace]   PluginFactory         Created plugin 'BichannelListener'.
+[Trace]   HttpHealthCheck       HTTP health check started at 'http://localhost:10666/health'
+[Trace]   DarkRiftServer        Binding listeners to ClientManager as server is externally visible.
+[Trace]   DefaultNetworkListener Starting bichannel listener.
+[Info]    DefaultNetworkListener Server mounted, listening on port 4296.
+[Trace]   DefaultNetworkListener Accepted TCP connection from 127.0.0.1:52141.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 127.0.0.1:63347.
+[Info]    ClientManager         New client [0] connected [127.0.0.1:52141|127.0.0.1:63347].
+[Error]   Client                A plugin encountered an error whilst handling the MessageReceived event.
+                                 System.IO.FileNotFoundException: Could not load file or assembly 'MultiplayerGameModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+                                 File name: 'MultiplayerGameModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+                                    at MultiplayerGame.MultiplayerGame.OnMessageReceived(Object sender, MessageReceivedEventArgs e)
+                                    at DarkRift.Server.Client.<>c__DisplayClass48_0.<HandleIncomingMessage>g__DoMessageReceived|0()
+                                 
+                                 WRN: Assembly binding logging is turned OFF.
+                                 To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+                                 Note: There is some performance penalty associated with assembly bind failure logging.
+                                 To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+                                 
+[Info]    ClientManager         Client [0] disconnected.

@@ -1,0 +1,6 @@
+D:\VideoTutorials\DarkriftMultiplayer\DarkriftMultiplayer\MultiplayerGame\MultiplayerGameModel\bin\Debug\MultiplayerGameModel.dll
+D:\VideoTutorials\DarkriftMultiplayer\DarkriftMultiplayer\MultiplayerGame\MultiplayerGameModel\bin\Debug\MultiplayerGameModel.pdb
+D:\VideoTutorials\DarkriftMultiplayer\DarkriftMultiplayer\MultiplayerGame\MultiplayerGameModel\obj\Debug\MultiplayerGameModel.csproj.AssemblyReference.cache
+D:\VideoTutorials\DarkriftMultiplayer\DarkriftMultiplayer\MultiplayerGame\MultiplayerGameModel\obj\Debug\MultiplayerGameModel.csproj.CoreCompileInputs.cache
+D:\VideoTutorials\DarkriftMultiplayer\DarkriftMultiplayer\MultiplayerGame\MultiplayerGameModel\obj\Debug\MultiplayerGameModel.dll
+D:\VideoTutorials\DarkriftMultiplayer\DarkriftMultiplayer\MultiplayerGame\MultiplayerGameModel\obj\Debug\MultiplayerGameModel.pdb
